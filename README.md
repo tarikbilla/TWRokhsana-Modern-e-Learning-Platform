@@ -45,8 +45,6 @@ In-depth course view with curriculum, reviews, and enrollment options.
 ### Learning Interface
 Immersive video player with sidebar curriculum and note-taking tools.
 
-![Learning Interface](screenshots/learning-interface.png)
-
 ### Student Dashboard
 Personal dashboard with enrolled courses, progress tracking, and achievements.
 
@@ -54,8 +52,6 @@ Personal dashboard with enrolled courses, progress tracking, and achievements.
 
 ### Admin Panel
 Comprehensive admin dashboard for managing users, courses, and platform analytics.
-
-![Admin Panel](screenshots/admin-panel.png)
 
 ---
 
@@ -160,6 +156,36 @@ The application will be available at `http://localhost:3000`.
 | `POST` | `/api/auth/login` | Login with credentials |
 | `POST` | `/api/auth/logout` | Logout current session |
 
+---
+## TW Rokhsana - Access Guide (Default Accounts)
+
+### Admin Account
+| Field    | Value                   |
+|----------|------------------------|
+| Role     | Admin                  |
+| Email    | admin@twrokhsana.com   |
+| Password | Admin@123              |
+
+### Student Account
+| Field    | Value                     |
+|----------|--------------------------|
+| Role     | Student                  |
+| Email    | student@twrokhsana.com   |
+| Password | Student@123              |
+
+### Instructor Account
+| Field    | Value                        |
+|----------|-----------------------------|
+| Role     | Instructor                  |
+| Email    | instructor@twrokhsana.com   |
+| Password | Instructor@123              |
+
+### Application Access
+
+| Environment | URL                      |
+|------------|--------------------------|
+| Production | Your deployed URL        |
+| Development| http://localhost:3000    |
 ---
 
 ## Project Structure
